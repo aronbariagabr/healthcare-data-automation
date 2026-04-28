@@ -58,40 +58,41 @@ python scripts/validate_data.py
 
 ## 🏗️ Architectural Box‑Style Diagram
 
-+-----------------------------+
-|          Raw Data           |
-|   CSV • EHR • APIs • Fin    |
-+-------------+---------------+
-              |
-              v
-+-----------------------------+
-|        Validation           |
-|   Schema checks • QA rules  |
-+-------------+---------------+
-              |
-              v
-+-----------------------------+
-|     Analytics Pipeline      |
-|   Transform • Normalize     |
-+-------------+---------------+
-              |
-              v
-+-----------------------------+
-|    Predictive Modeling      |
-| Logistic Regression • ML    |
-+-------------+---------------+
-              |
-              v
-+-----------------------------+
-|          Testing            |
-|   Pytest • Reliability      |
-+-------------+---------------+
-              |
-              v
-+-----------------------------+
-|        End Impact           |
-| Insights • Efficiency       |
-+-----------------------------+
++----------------------------------+
+|             Raw Data             |
+|        CSV • EHR • APIs • Fin    |
++------------------+---------------+
+                   |
+                   v
++----------------------------------+
+|           Validation             |
+|     Schema checks • QA rules     |
++------------------+---------------+
+                   |
+                   v
++----------------------------------+
+|       Analytics Pipeline         |
+|       Transform • Normalize      |
++------------------+---------------+
+                   |
+                   v
++----------------------------------+
+|       Predictive Modeling        |
+|   Logistic Regression • ML       |
++------------------+---------------+
+                   |
+                   v
++----------------------------------+
+|             Testing              |
+|     Pytest • Reliability         |
++------------------+---------------+
+                   |
+                   v
++----------------------------------+
+|            End Impact            |
+|     Insights • Efficiency        |
++----------------------------------+
+
 
 
 ## 📊 Architecture Diagram (Mermaid)
