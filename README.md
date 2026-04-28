@@ -58,7 +58,6 @@ pytest tests/
 python scripts/validate_data.py
 
 
-
 ## 🏗️ Architectural Box‑Style Diagram
 
 +----------------------------------+
@@ -112,6 +111,31 @@ flowchart TD
 - Transform features (normalize age, encode diagnosis)
 - Train predictive model (logistic regression)
 - Evaluate and report accuracy
+
+## 📈 **Sample Output**
+**Model Accuracy**
+Logistic Regression Accuracy: 0.87
+Confusion Matrix:
+[[45  5]
+ [ 7 43]]
+
+**Risk Prediction Table**
++------+-----+-----------+------------+
+| ID   | Age | Diagnosis | Risk Score |
++------+-----+-----------+------------+
+| 001  | 45  | Diabetes  | High       |
+| 002  | 30  | Healthy   | Low        |
+| 003  | 62  | Hypertension | Medium  |
++------+-----+-----------+------------+
+**Pytest Results**
+============================= test session starts ==============================
+collected 12 items
+
+tests/test_validation.py ......
+tests/test_pipeline.py .....
+tests/test_modeling.py ...
+
+========================= 12 passed in 2.31s =========================
 
 ## 🔮**Future Work**
 - Add support for larger datasets with Spark
