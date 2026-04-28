@@ -17,8 +17,6 @@ This repository demonstrates how to automate healthcare data validation and buil
 All data in this repository is **synthetically generated**.  
 No PHI or PII is included, ensuring compliance with privacy standards.
 
-> **Note on Data Privacy:** All data in this repository is **synthetically generated**. No Protected Health Information (PHI) or Personally Identifiable Information (PII) is included, ensuring compliance with privacy standards.
-
 ## ⚙️ Features
 
 - **Automated Validation:** Python logic to verify patient datasets against clinical schemas (e.g., age ranges, ICD-10 code formats).
