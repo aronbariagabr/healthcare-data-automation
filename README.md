@@ -99,11 +99,11 @@ python scripts/validate_data.py
 
 ## 📊 Architecture Diagram (Mermaid)
 flowchart TD
-    A[Raw Data] --> B[Validation]
-    B --> C[Analytics Pipeline]
+    A[Raw Data] --> B{Validation Logic}
+    B -- Pass --> C[Analytics Pipeline]
+    B -- Fail --> B1[Error Log / QA Report]
     C --> D[Predictive Modeling]
-    D --> E[Results & Insights]
-
+    D --> E[Clinical Insights]
 
     ## 🔄 **Workflow**
 - Load raw patient data
