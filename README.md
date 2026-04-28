@@ -13,9 +13,7 @@ Python automation and analytics for healthcare data validation, predictive model
 
 This repository demonstrates how to automate healthcare data validation and build clinical risk predictive models. These tools reflect real-world solutions for HIPAA-compliant environments, focusing on data integrity and reproducible analytics.
 
-### 🔒 Data Privacy
-All data in this repository is **synthetically generated**.  
-No PHI or PII is included, ensuring compliance with privacy standards.
+
 
 ## ⚙️ Features
 
