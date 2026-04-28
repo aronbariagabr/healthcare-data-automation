@@ -57,6 +57,7 @@ python scripts/validate_data.py
 
 
 ## 🏗️ Architectural Box‑Style Diagram
+
 +-----------------------------+
 |         Raw Data            |
 |   CSV, EHR, APIs, Finance   |
