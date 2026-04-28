@@ -25,6 +25,7 @@ This repository showcases Python scripts and workflows used to automate healthca
 - Pytest
 
 ##🚀 Quickstart
+
 git clone https://github.com/aronbariagabr/healthcare-data-automation.git
 cd healthcare-data-automation
 pip install -r requirements.txt
