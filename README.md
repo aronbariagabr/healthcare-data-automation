@@ -28,15 +28,6 @@ This repository showcases Python scripts and workflows used to automate healthca
 - Jupyter Notebook
 - Pytest
 
-## 🚀Quickstart
-
-git clone https://github.com/aronbariagabr/healthcare-data-automation.git
-cd healthcare-data-automation
-pip install -r requirements.txt
-pytest tests/
-python scripts/validate_data.py
-
-
 ##📁 Repository Structure
 healthcare-data-automation/
 ├── data/
@@ -54,7 +45,17 @@ healthcare-data-automation/
 ├── requirements.txt
 └── README.md
 
-##🏗️ Architectural Box‑Style Diagram
+
+## 🚀Quickstart
+
+git clone https://github.com/aronbariagabr/healthcare-data-automation.git
+cd healthcare-data-automation
+pip install -r requirements.txt
+pytest tests/
+python scripts/validate_data.py
+
+
+## 🏗️ Architectural Box‑Style Diagram
 +-----------------------------+
 |         Raw Data            |
 |   CSV, EHR, APIs, Finance   |
@@ -91,7 +92,7 @@ flowchart TD
     C --> D[Predictive Modeling]
     D --> E[Results & Insights]
 
-##🔄 **Workflow**
+## 🔄 **Workflow**
 - Load raw patient data
 - Validate schema and missing values
 - Transform features (normalize age, encode diagnosis)
@@ -114,7 +115,7 @@ graph TD
     API --> DB[(Database)]
     API --> ML[Predictive Model]
 
-##🔮**Future Work**
+## 🔮**Future Work**
 - Add support for larger datasets with Spark
 - Integrate visualization dashboards (Plotly, Dash)
 - Expand predictive modeling to multi‑class classification
