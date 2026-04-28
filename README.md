@@ -102,22 +102,6 @@ flowchart TD
     D --> E[Results & Insights]
 
 
-## 🖼️ UI Mockup (ASCII Style)
-+---------------------------------------------------+
-| Patient Dashboard                                 |
-|---------------------------------------------------|
-| ID   | Age | Diagnosis | Risk Score               |
-|---------------------------------------------------|
-| 001  | 45  | Diabetes  | High                     |
-| 002  | 30  | Healthy   | Low                      |
-+---------------------------------------------------+
-
-## 🧩 Wireframe Diagram (Mermaid)
-graph TD
-    UI[Dashboard UI] --> API[Backend API]
-    API --> DB[(Database)]
-    API --> ML[Predictive Model]
-
     ## 🔄 **Workflow**
 - Load raw patient data
 - Validate schema and missing values
