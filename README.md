@@ -28,13 +28,14 @@ This repository showcases Python scripts and workflows used to automate healthca
 - Jupyter Notebook
 - Pytest
 
-##🚀 Quickstart
+## 🚀Quickstart
 
 git clone https://github.com/aronbariagabr/healthcare-data-automation.git
 cd healthcare-data-automation
 pip install -r requirements.txt
 pytest tests/
 python scripts/validate_data.py
+
 
 ##📁 Repository Structure
 healthcare-data-automation/
