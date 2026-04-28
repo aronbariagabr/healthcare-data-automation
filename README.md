@@ -1,8 +1,12 @@
 # Healthcare Data Automation
 
-[![GitHub](https://img.shields.io/badge/GitHub-aronbariagabr-black)](https://github.com/aronbariagabr)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Aron%20Bariagabr-blue)](https://linkedin.com/in/aronbariagabr)
-[![Email](https://img.shields.io/badge/Email-aronbariagabr%40gmail.com-red)](mailto:aronbariagabr@gmail.com)
+![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-yellow?logo=pandas)
+![NumPy](https://img.shields.io/badge/NumPy-Numerical%20Computing-lightblue?logo=numpy)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-Machine%20Learning-orange?logo=scikitlearn)
+![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-red?logo=jupyter)
+![Pytest](https://img.shields.io/badge/Pytest-Testing-green?logo=pytest)
+
 
 Python automation and analytics for healthcare data validation, predictive modeling, and backend optimization. Inspired by real-world projects at CVS Health and DXC Technology.
 
