@@ -101,12 +101,6 @@ flowchart TD
     C --> D[Predictive Modeling]
     D --> E[Results & Insights]
 
-## 🔄 **Workflow**
-- Load raw patient data
-- Validate schema and missing values
-- Transform features (normalize age, encode diagnosis)
-- Train predictive model (logistic regression)
-- Evaluate and report accuracy
 
 ## 🖼️ UI Mockup (ASCII Style)
 +---------------------------------------------------+
@@ -123,6 +117,13 @@ graph TD
     UI[Dashboard UI] --> API[Backend API]
     API --> DB[(Database)]
     API --> ML[Predictive Model]
+
+    ## 🔄 **Workflow**
+- Load raw patient data
+- Validate schema and missing values
+- Transform features (normalize age, encode diagnosis)
+- Train predictive model (logistic regression)
+- Evaluate and report accuracy
 
 ## 🔮**Future Work**
 - Add support for larger datasets with Spark
