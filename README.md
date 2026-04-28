@@ -58,6 +58,7 @@ pytest tests/
 python scripts/validate_data.py
 
 
+
 ## 🏗️ Architectural Box‑Style Diagram
 
 +----------------------------------+
