@@ -95,16 +95,6 @@ python scripts/validate_data.py
 |     Insights • Efficiency        |
 +----------------------------------+
 
-
-
-## 📊 Architecture Diagram (Mermaid)
-flowchart TD
-    A[Raw Data] --> B{Validation Logic}
-    B -- Pass --> C[Analytics Pipeline]
-    B -- Fail --> B1[Error Log / QA Report]
-    C --> D[Predictive Modeling]
-    D --> E[Clinical Insights]
-
     ## 🔄 **Workflow**
 - Load raw patient data
 - Validate schema and missing values
@@ -142,4 +132,14 @@ tests/test_modeling.py ...
 - Integrate visualization dashboards (Plotly, Dash)
 - Expand predictive modeling to multi‑class classification
 - Deploy pipeline with Docker + CI/CD
+```
 
+
+## 📊 Architecture Diagram (Mermaid)
+```mermaid
+flowchart TD
+    A[Raw Data] --> B{Validation Logic}
+    B -- Pass --> C[Analytics Pipeline]
+    B -- Fail --> B1[Error Log / QA Report]
+    C --> D[Predictive Modeling]
+    D --> E[Clinical Insights]
